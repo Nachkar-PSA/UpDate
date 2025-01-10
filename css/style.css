@@ -1063,6 +1063,7 @@ body {
 
     .offer__list {
         display: grid;
+        flex-direction: column;
         position: static;
     }
 
@@ -1101,7 +1102,6 @@ body {
 
     .discover__cards {
         display: grid;
-        flex-direction: column;
         gap: 35px;
     }
 

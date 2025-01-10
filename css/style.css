@@ -467,6 +467,7 @@ body {
 
 .find__program-text {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     text-align: left;
     max-width: 50%;

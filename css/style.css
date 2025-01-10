@@ -1100,9 +1100,14 @@ body {
         transform: translateX(-65px);
     }
 
+    .discover__cards.active {
+        display: flex;
+        gap: 10px;
+    }
+
     .discover__cards {
-        display: grid;
-        gap: 35px;
+        display: none;
+        gap: 10px;
     }
 
     .discover__box {

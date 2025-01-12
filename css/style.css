@@ -39,6 +39,14 @@ body {
     text-decoration: none;
 }
 
+.nav__link:focus,
+.header__button:focus,
+.offer__item-link:focus {
+    outline: 2px dashed #4a90e2;
+    outline-offset: 4px;
+}
+
+
 .button__box {
     display: flex;
     gap: 48px;

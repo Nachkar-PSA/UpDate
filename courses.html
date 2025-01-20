@@ -65,60 +65,76 @@
                     <time datetime="PT17D17H44M16S">17 Days 17:44:16</time>
                 </p>
             </div>
-            <ul class="offer-designer__list">
-                <li>
-                    <a href="#">InVision</a>
+            <ul class="offer-designer__list" role="list">
+                <li class="offer__invision offer__item">
+                    <a class="offer__item-link" href="#">InVision</a>
                 </li>
-                <li>
-                    <a href="#">ProtoPie</a>
+                <li class="offer__protopie offer__item">
+                    <a class="offer__item-link" href="#">ProtoPie</a>
                 </li>
-                <li>
-                    <a href="#">Miro</a>
+                <li class="offer__miro offer__item">
+                    <a class="offer__item-link" href="#">Miro</a>
                 </li>
-                <li>
-                    <a href="#">Photoshop</a>
+                <li class="offer__photoshop offer__item">
+                    <a class="offer__item-link" href="#">Photoshop</a>
                 </li>
-                <li>
-                    <a href="#">Figma</a>
+                <li class="offer__figma offer__item">
+                    <a class="offer__item-link" href="#">Figma</a>
                 </li>
-                <li>
-                    <a href="#">Illustrator</a>
+                <li class="offer__dillustrator offer__item">
+                    <a class="offer__item-link" href="#">Illustrator</a>
                 </li>
             </ul>
         </section>
-        <section class="profession container">
-            <h2 class="profession__title">Profession UI/UX designer</h2>
-            <p class="profession__description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis occaecati cupiditate non provident, similique sunt in culpa
-                qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
-            </p>
-            <h3 class="profession__salary">5 000 $</h3>
-            <p class="profession__salary__content">Salary</p>
-            <p class="profession__salary__description">
-                Nam libero tempore, cum soluta nobis est
-            </p>
-            <h3 class="vacancies">4 225</h3>
-            <p class="vacancies__content">Vacancies</p>
-            <p class="vacancies__description">Vero eos et accusamus</p>
-            <h3 class="portfolio">Portfolio</h3>
-            <p class="portfolio__description">
-                You will learn how to create a brand identity on the web and for
-                printing. Learn how to work in Illustrator, Photoshop, InDesign and
-                Figma
-            </p>
-            <h3 class="internship">Internship</h3>
-            <p class="internship__description">
-                You will learn how to create a brand identity on the web and for
-                printing. Learn how to work in Illustrator, Photoshop, InDesign and
-                Figma
-            </p>
-            <h3 class="certificate">Certificate</h3>
-            <p class="certificate__description">
-                You will learn how to create a brand identity on the web and for
-                printing. Learn how to work in Illustrator, Photoshop, InDesign and
-                Figma
-            </p>
+        <section class="container">
+            <div class="wrapper">
+                <div class="profession__text">
+                    <h2 class="profession__title">Profession<br> UI/UX designer</h2>
+                    <h3 class="profession__description">
+                        At vero eos et accusamus et iusto odio dignissimos ducimus qui
+                        blanditiis occaecati cupiditate non provident, similique sunt in culpa
+                        qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
+                    </h3>
+                </div>
+                <div class="profession__item">
+                    <h3 class="profession__count">$5 000</h3>
+                    <h3 class="profession__counter-item">Salary</h3>
+                    <h3 class="profession__description">
+                        Nam libero tempore, cum soluta nobis est
+                    </h3>
+                </div>
+                <div class="profession__item">
+                    <h3 class="profession__count">4 225</h3>
+                    <h3 class="profession__counter-item">Vacancies</h3>
+                    <h3 class="profession__description">Vero eos et accusamus</h3>
+                </div>
+            </div>
+            <div class="profession__list">
+                <div class="profession__list-item">
+                    <h3 class="list-item__text">Portfolio</h3>
+                    <h3 class="list-item__description">
+                        You will learn how to create a brand identity on the web and for
+                        printing. Learn how to work in Illustrator, Photoshop, InDesign and
+                        Figma
+                    </h3>
+                </div>
+                <div class="profession__list-item">
+                    <h3 class="list-item__text">Internship</h3>
+                    <h3 class="list-item__description">
+                        You will learn how to create a brand identity on the web and for
+                        printing. Learn how to work in Illustrator, Photoshop, InDesign and
+                        Figma
+                    </h3>
+                </div>
+                <div class="profession__list-item">
+                    <h3 class="list-item__text">Certificate</h3>
+                    <h3 class="list-item__description">
+                        You will learn how to create a brand identity on the web and for
+                        printing. Learn how to work in Illustrator, Photoshop, InDesign and
+                        Figma
+                    </h3>
+                </div>
+            </div>
         </section>
         <section class="price container">
             <h2 class="price_title">Discover Our Prices</h2>
@@ -187,57 +203,90 @@
             </div>
         </section>
     </main>
-    <footer class="footer container">
-        <div class="footer__content">
-            <div class="footer__section footer__logo">
-                <a class="footer__logo-link" href="index.html">
-                    <img class="footer__logo-img" src="img/footer__logo.svg" alt="UpDate Logo">
-                    <span class="footer__logo-text">UpDate</span>
-                </a>
-                <p class="footer__contact-p"><a class="footer__contact-link"
-                        href="mailto:support@update.com">support@update.com</a>
-                </p>
-                <p class="footer__contact-p"><a class="footer__contact-link" href="tel:+12136771024">+1 (213) 677 10
-                        24</a></p>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__section footer__logo" role="footer logo">
+                    <a class="footer__logo-link" href="index.html">
+                        <img class="footer__logo-img" src="img/footer__logo.svg" alt="UpDate Logo" />
+                        <span class="footer__logo-text">UpDate</span>
+                    </a>
+                    <p class="footer__contact-p">
+                        <a class="footer__contact-link" href="mailto:support@update.com"
+                            role="email contacts">support@update.com</a>
+                    </p>
+                    <p class="footer__contact-p">
+                        <a class="footer__contact-link" href="tel:+12136771024" role="phone contact">+1 (213) 677 10
+                            24</a>
+                    </p>
+                </div>
+                <div class="footer__section footer__courses" role="navigation courses">
+                    <h6 class="footer__title">Courses</h6>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Animation</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Design</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Illustration</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Programming</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Photo & Film</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Marketing</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__teachers" role="navigation teach">
+                    <h6 class="footer__title">Teachers</h6>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">All Teachers</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Become a Teacher</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__info" role="navigation about us">
+                    <h6 class="footer__title">Information</h6>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Blog</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">About us</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__section footer__language" role="navigation language">
+                    <h6 class="footer__title">En</h6>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">English</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">French</a>
+                        </li>
+                        <li class="footer__item">
+                            <a class="footer__link" href="#">Russian</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="footer__section footer__courses">
-                <h6 class="footer__title">Courses</h6>
-                <ul class="footer__list">
-                    <li class="footer__item"><a class="footer__link" href="#">Animation</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Design</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Illustration</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Programming</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Photo & Film</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Marketing</a></li>
-                </ul>
+            <div class="footer__bottom" role="policy privacy and rights">
+                <a class="footer__policy" href="#">Policy privacy</a>
+                <p class="footer__copy">Copyright 2022. All rights reserved</p>
             </div>
-            <div class="footer__section footer__teachers">
-                <h6 class="footer__title">Teachers</h6>
-                <ul class="footer__list">
-                    <li class="footer__item"><a class="footer__link" href="#">All Teachers</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Become a Teacher</a></li>
-                </ul>
-            </div>
-            <div class="footer__section footer__info">
-                <h6 class="footer__title">Information</h6>
-                <ul class="footer__list">
-                    <li class="footer__item"><a class="footer__link" href="#">Blog</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">About us</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">FAQ</a></li>
-                </ul>
-            </div>
-            <div class="footer__section footer__language">
-                <h6 class="footer__title">En</h6>
-                <ul class="footer__list">
-                    <li class="footer__item"><a class="footer__link" href="#">English</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">French</a></li>
-                    <li class="footer__item"><a class="footer__link" href="#">Russian</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer__bottom">
-            <a class="footer__policy" href="#">Policy privacy</a>
-            <p class="footer__copy">Copyright 2022. All rights reserved</p>
         </div>
     </footer>
 

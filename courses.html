@@ -21,7 +21,7 @@
                 <img src="./img/logo.svg" alt="logo" />
                 UpDate
             </a>
-            <nav class="nav">
+            <nav class="nav" role="navigation">
                 <ul class="nav__list">
                     <li>
                         <a class="nav__link" href="#">Courses</a>
@@ -41,29 +41,29 @@
             <span class="hamburger__line"></span>
             <span class="hamburger__line"></span>
         </button> -->
-        <div class="button__box">
+        <div class="button__box role=" navigation">
             <a class="header__link" href="#">En</a>
             <a class="header__link" href="#">Sign In</a>
-            <a class="header__button" href="#">Trial free</a>
+            <a class="header__button" href="#" role="button">Trial free</a>
         </div>
     </header>
     <main>
-        <section class="offer-designer container">
+        <section class="offer-designer container" role="main">
             <div class="offer-designer__text">
-                <p class="offer-designer__term">6 months</p>
-                <p class="offer-designer__profession">profession:</p>
+                <h2 class="offer-designer__term">6 months</h2>
+                <h2 class="offer-designer__profession">profession:</h2>
                 <h1 class="offer-designer__title">UI/UX designer</h1>
-                <p class="offer-designer__description">
+                <h2 class="offer-designer__description">
                     You will learn how to create a brand identity on the web and for
                     printing. Learn how to work in Illustrator, Photoshop, InDesign and
                     Figma. Add posters, logos, merch design and other strong projects to
                     your portfolio. Start a career in the studio or freelance.
-                </p>
-                <button class="offer-designer__button">Started</button>
-                <p class="offer-designer__sale">25%</p>
-                <p class="offer-designer__time">
+                </h2>
+                <button class="offer-designer__button" role="button">Started</button>
+                <h3 class="offer-designer__sale">25%</h3>
+                <h3 class="offer-designer__time">
                     <time datetime="PT17D17H44M16S">17 Days 17:44:16</time>
-                </p>
+                </h3>
             </div>
             <ul class="offer-designer__list" role="list">
                 <li class="offer__invision offer__item">
@@ -86,9 +86,9 @@
                 </li>
             </ul>
         </section>
-        <section class="container">
+        <section class="container section">
             <div class="wrapper">
-                <div class="profession__text">
+                <div class="profession__text" role="description">
                     <h2 class="profession__title">Profession<br> UI/UX designer</h2>
                     <h3 class="profession__description">
                         At vero eos et accusamus et iusto odio dignissimos ducimus qui
@@ -96,20 +96,20 @@
                         qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                     </h3>
                 </div>
-                <div class="profession__item">
+                <div class="profession__item" role="about profession">
                     <h3 class="profession__count">$5 000</h3>
                     <h3 class="profession__counter-item">Salary</h3>
                     <h3 class="profession__description">
                         Nam libero tempore, cum soluta nobis est
                     </h3>
                 </div>
-                <div class="profession__item">
+                <div class="profession__item" role="about profession">
                     <h3 class="profession__count">4 225</h3>
                     <h3 class="profession__counter-item">Vacancies</h3>
                     <h3 class="profession__description">Vero eos et accusamus</h3>
                 </div>
             </div>
-            <div class="profession__list">
+            <div class="profession__list" role="list">
                 <div class="profession__list-item">
                     <h3 class="list-item__text">Portfolio</h3>
                     <h3 class="list-item__description">
@@ -118,7 +118,7 @@
                         Figma
                     </h3>
                 </div>
-                <div class="profession__list-item">
+                <div class="profession__list-item" role="list">
                     <h3 class="list-item__text">Internship</h3>
                     <h3 class="list-item__description">
                         You will learn how to create a brand identity on the web and for
@@ -126,7 +126,7 @@
                         Figma
                     </h3>
                 </div>
-                <div class="profession__list-item">
+                <div class="profession__list-item" role="list">
                     <h3 class="list-item__text">Certificate</h3>
                     <h3 class="list-item__description">
                         You will learn how to create a brand identity on the web and for
@@ -136,78 +136,84 @@
                 </div>
             </div>
         </section>
-        <section class="price container">
-            <h2 class="price_title">Discover Our Prices</h2>
-            <div class="base">
-                <ul class="base__item">
-                    <li>
-                        Et dolorum fuga et harum quidem rerum
-                    </li>
-                    <li>
-                        Mentors and community support
-                    </li>
-                    <li>
-                        Necessitatibus saepe
-                    </li>
-                    <li>
-                        Ut aut reiciendis
-                    </li>
-                </ul>
-                <p class="base__price">12 000$</p>
-                <p class="base__sale">3 000$</p>
-                <button class="button">Choose</button>
+        <section class="price container" role="price">
+            <h2 class="price_title">Discover<br> Our Prices</h2>
+            <div class="price__wrapper">
+                <div class="price__box" role="list">
+                    <h3 class="ptice__box-title">Base</h3>
+                    <ul class="price__box-item">
+                        <li>
+                            Et dolorum fuga et harum quidem rerum
+                        </li>
+                        <li>
+                            Mentors and community support
+                        </li>
+                        <li>
+                            Necessitatibus saepe
+                        </li>
+                        <li>
+                            Ut aut reiciendis
+                        </li>
+                    </ul>
+                    <p class="price__count">12 000$</p>
+                    <p class="price__count-sale">3 000$</p>
+                    <button class="price__button" role="button">Choose</button>
+                </div>
+                <div class="price__box-white" role="list">
+                    <h3 class="ptice__box-title-white">Optimal</h3>
+                    <ul class="price__box-item-white">
+                        <li>
+                            Rerum hic tenetur a sapiente
+                        </li>
+                        <li>
+                            Consectetur, adipisci velit
+                        </li>
+                        <li>
+                            Ut aliquid ex ea commodi consequatur
+                        </li>
+                        <li>
+                            Eum fugiat quo voluptas nulla
+                        </li>
+                        <li>
+                            Illo inventore veritatis et quasi architecto
+                        </li>
+                    </ul>
+                    <p class="price__count-white">24 000$</p>
+                    <p class="price__count-sale-white">6 000$</p>
+                    <button class="price__button-white" role="button">Choose</button>
+                </div>
+                <div class="price__box" role="list">
+                    <h3 class="ptice__box-title">Premium</h3>
+                    <ul class="price__box-item">
+                        <li>
+                            Ullamco laboris nisi ut
+                        </li>
+                        <li>
+                            Voluptate velit esse cillum
+                        </li>
+                        <li>
+                            Qui in ea voluptate velit esse quam nihil molestiae
+                        </li>
+                        <li>
+                            Necessitatibus saepe eveniet
+                        </li>
+                        <li>
+                            Sunt in culpa qui officia
+                        </li>
+                    </ul>
+                    <p class="price__count">64 000$</p>
+                    <p class="price__count-sale">18 000$</p>
+                    <button class="price__button" role="button">Choose</button>
+                </div>
             </div>
-            <div class="optimal">
-                <ul class="optimal__item">
-                    <li>
-                        Rerum hic tenetur a sapiente
-                    </li>
-                    <li>
-                        Consectetur, adipisci velit
-                    </li>
-                    <li>
-                        Ut aliquid ex ea commodi consequatur
-                    </li>
-                    <li>
-                        Eum fugiat quo voluptas nulla
-                    </li>
-                    <li>
-                        Illo inventore veritatis et quasi architecto
-                    </li>
-                </ul>
-                <p class="optimal__price">24 000$</p>
-                <p class="optimal__sale">6 000$</p>
-                <button class="button">Choose</button>
-            </div>
-            <div class="premium">
-                <ul class="premium__item">
-                    <li>
-                        Ullamco laboris nisi ut
-                    </li>
-                    <li>
-                        Voluptate velit esse cillum
-                    </li>
-                    <li>
-                        Qui in ea voluptate velit esse quam nihil molestiae
-                    </li>
-                    <li>
-                        Necessitatibus saepe eveniet
-                    </li>
-                    <li>
-                        Sunt in culpa qui officia
-                    </li>
-                </ul>
-                <p class="premium__price">64 000$</p>
-                <p class="premium__sale">18 000$</p>
-                <button class="button">Choose</button>
-            </div>
+
         </section>
     </main>
     <footer class="footer">
         <div class="container">
             <div class="footer__content">
                 <div class="footer__section footer__logo" role="footer logo">
-                    <a class="footer__logo-link" href="index.html">
+                    <a class="footer__logo-link" href="index.html" role="link to main page">
                         <img class="footer__logo-img" src="img/footer__logo.svg" alt="UpDate Logo" />
                         <span class="footer__logo-text">UpDate</span>
                     </a>
@@ -222,7 +228,7 @@
                 </div>
                 <div class="footer__section footer__courses" role="navigation courses">
                     <h6 class="footer__title">Courses</h6>
-                    <ul class="footer__list">
+                    <ul class="footer__list" role="list">
                         <li class="footer__item">
                             <a class="footer__link" href="#">Animation</a>
                         </li>
@@ -245,7 +251,7 @@
                 </div>
                 <div class="footer__section footer__teachers" role="navigation teach">
                     <h6 class="footer__title">Teachers</h6>
-                    <ul class="footer__list">
+                    <ul class="footer__list" role="list">
                         <li class="footer__item">
                             <a class="footer__link" href="#">All Teachers</a>
                         </li>
@@ -256,7 +262,7 @@
                 </div>
                 <div class="footer__section footer__info" role="navigation about us">
                     <h6 class="footer__title">Information</h6>
-                    <ul class="footer__list">
+                    <ul class="footer__list" role="list">
                         <li class="footer__item">
                             <a class="footer__link" href="#">Blog</a>
                         </li>
@@ -270,7 +276,7 @@
                 </div>
                 <div class="footer__section footer__language" role="navigation language">
                     <h6 class="footer__title">En</h6>
-                    <ul class="footer__list">
+                    <ul class="footer__list" role="list">
                         <li class="footer__item">
                             <a class="footer__link" href="#">English</a>
                         </li>

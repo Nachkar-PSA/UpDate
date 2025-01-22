@@ -24,3 +24,9 @@ links.forEach((link) => {
     link.classList.add("active");
   });
 });
+
+const button = document.querySelector(".offer__button");
+
+button.addEventListener("click", () => {
+  window.location.href = "courses.html";
+});

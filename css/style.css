@@ -3,6 +3,7 @@ html {
     margin: 0;
     padding: 0;
     width: 100%;
+    background: #EFEFF2;
     color: #19191c;
     font: 400 18px/28px Inter, sans-serif;
 }
@@ -10,8 +11,8 @@ html {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 0 20px;
 }
+
 
 .header {
     display: flex;
@@ -237,7 +238,6 @@ html {
 .wrapper {
     max-width: 1440px;
     width: 100%;
-    /* padding: 0 20px; */
     display: flex;
     justify-content: space-between;
 }
@@ -393,27 +393,39 @@ html {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 8px;
+    gap: 20px;
     padding: 56px 0 0;
+    position: relative;
 }
 
 .discover__cards {
     display: none;
     justify-content: space-around;
-    gap: 8px;
     padding: 56px 0 0;
 }
 
 .discover__cards-item {
     display: flex;
     flex-direction: column;
+    width: calc((100%-60px) / 4);
+    max-width: 345px;
+    box-sizing: border-box;
 }
 
-.discover__cards-title {
-    margin: 28px 0 0;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 26px;
+.discover__cards.active::after {
+    content: "";
+    display: block;
+    width: 100%;
+    /* height: 128px; */
+    visibility: hidden;
+}
+
+.discover__cards-item:nth-child(-n+4) {
+    margin-bottom: 60px;
+}
+
+.discover__cards-item:nth-child(n+5) {
+    margin-bottom: 108px;
 }
 
 .discover__cards-length {
@@ -1155,6 +1167,10 @@ html {
         display: flex;
         flex-wrap: wrap;
         width: 70%;
+    }
+
+    .discover__cards-item {
+        width: 45%;
     }
 }
 
